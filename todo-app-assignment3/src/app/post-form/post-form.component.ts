@@ -56,6 +56,7 @@ export class PostFormComponent {
     this.selectedPost!.title = postData.title;
     this.selectedPost!.body = postData.body;
     this.submitPost.emit(this.selectedPost);
+    this.resetForm();
   }
 
   resetForm() {
