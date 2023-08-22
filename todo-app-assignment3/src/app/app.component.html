@@ -1,0 +1,6 @@
+<h1>POST APP</h1>
+<div class="container">
+    <app-post-form [selectedPost]="selectedPost" (submitPost)="handleFormSubmission($event)"></app-post-form>
+    <app-post-list [newPost]="newPost" (editSelectedPost)="handleEditSelectedPost($event)"></app-post-list>
+  </div>
+  

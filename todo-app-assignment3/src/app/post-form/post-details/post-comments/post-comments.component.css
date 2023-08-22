@@ -1,0 +1,35 @@
+.comments-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comments-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .comments-container.comment {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comments-container.comment p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comment p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

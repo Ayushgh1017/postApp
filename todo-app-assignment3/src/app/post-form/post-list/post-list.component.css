@@ -1,0 +1,32 @@
+.post-container {
+  display: flex;
+  gap: 20px;
+}
+
+.post-list-container {
+  flex: 1; /* Take up remaining horizontal space */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 20px; 
+  border-right: 1px solid #ccc; 
+  overflow-y: auto; 
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px; 
+}
